@@ -1,0 +1,368 @@
+{
+  "type": "USDA: Code 010",
+  "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+  "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+  "context": "https://project-open-data.cio.gov/v1.1/schema/data.jsonld",
+  "myIcon": "me.jpg",
+  "blockgroup": [
+    {
+      "codeid": "USDA-ERS-00010",
+      "accessLevel": "non-public",
+	  
+      	"myData" : {
+		"selfIcon" : "me.jpg"
+		},
+		
+		"contactPoint": {
+        "hasEmail": "mailto:dtorg@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Dave Torgerson",
+				"icon": ""
+      },
+      "programCode": [
+        "005:041"
+      ],
+      "description": "Haver Analytics' primary database of U.S. economic and financial data",
+      "title": "Haver Analytics: U.S. Economic Statistics",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://www.haver.com",
+          "mediaType": "text/html",
+          "title": "Vendor Website"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "rights": "Purchased dataset with non-disclosure agreement",
+      "modified": "2014-02-28",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service:  Market and Trade Economics Division"
+      },
+      "spatial": "United States"
+    },
+    {
+      "codeid": "USDA-ERS-00011",
+      "accessLevel": "non-public",
+      "contactPoint": {
+        "hasEmail": "mailto:dtorg@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Dave Torgerson",
+				"icon": ""
+      },
+      "programCode": [
+        "005:041"
+      ],
+      "description": "Complete national income and product accounts from the Bureau of Economic Analysis, including GDP accounts, monthly personal consumption and personal income, and auto detail",
+      "title": "Haver Analytics: U.S. National Accounts",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://www.haver.com",
+          "mediaType": "text/html",
+          "title": "Vendor Website"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "rights": "Purchased dataset with non-disclosure agreement",
+      "modified": "2014-02-28",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service:  Market and Trade Economics Division"
+      },
+      "spatial": "U.S."
+    },
+    {
+      "codeid": "USDA-ERS-00046",
+      "accessLevel": "non-public",
+      "contactPoint": {
+        "hasEmail": "mailto:pheisey@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Paul Heisey",
+				"icon": ""
+      },
+      "programCode": [
+        "005:041"
+      ],
+      "description": "Public agricultural R&D investment data",
+      "title": "IFPRI: Agricultural Science & Technology Indicators",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://www.ifpri.org/dataset/agricultural-science-and-technology-indicators-asti-data-tool",
+          "mediaType": "text/html",
+          "title": "Vendor Website"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "rights": "Purchased dataset with non-disclosure agreement",
+      "modified": "2014-02-28",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service: Resource and Rural Economics Division"
+      },
+      "spatial": "Global"
+    },
+    {
+      "codeid": "USDA-ERS-00049",
+      "accessLevel": "non-public",
+      "contactPoint": {
+        "hasEmail": "mailto:mdenbaly@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Mark Denbaly",
+				"icon": ""
+      },
+      "programCode": [
+        "005:041"
+      ],
+      "description": "Store scanner and household data, 2008-20012.",
+      "title": "IRI food purchase data",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://www.iriworldwide.com/",
+          "mediaType": "text/html",
+          "title": "Vendor website"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "modified": "2014-03-19",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "IRI"
+      },
+      "accrualPeriodicity": "R/P1D",
+      "spatial": "United States"
+    },
+    {
+      "codeid": "USDA-ERS-00072",
+      "accessLevel": "public",
+      "contactPoint": {
+        "hasEmail": "mailto:kfuglie@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Keith Fuglie",
+				"icon": ""
+      },
+      "programCode": [
+        "005:041"
+      ],
+      "description": "This data product provides agricultural output, input and total factor productivity (TFP) growth rates, but not levels, across the countries and regions of the world in a consistent, comparable way, for 1961-2010.",
+      "title": "International Agricultural Productivity",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://www.ers.usda.gov/data-products/international-agricultural-productivity/",
+          "description": "Countries - Agricultural total factor productivity growth indices for countries, 1961-2013\r\nAgricultural total factor productivity growth indices for geographic regions, 1961-2013\r\nAgricultural total factor productivity growth indices for regions (countries grouped by income class), 1961-2013",
+          "mediaType": "application/vnd.ms-excel",
+          "title": "Web page with link to Excel files"
+        }
+      ],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "bureauCode": [
+        "005:13"
+      ],
+      "modified": "2014-03-19",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service, U.S. Department of Agriculture"
+      },
+      "describedBy": "http://www.ers.usda.gov/data-products/international-agricultural-productivity/documentation-and-methods.aspx",
+      "keyword": [
+        "agricultural economics",
+        "agricultural productivity"
+      ],
+      "issued": "2013-11-05"
+    },
+    {
+      "codeid": "USDA-ERS-26061",
+      "accessLevel": "public",
+      "contactPoint": {
+        "hasEmail": "mailto:rtrostle@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Ronald Trostle",
+				"icon": ""
+      },
+      "programCode": [
+        "005:041"
+      ],
+      "description": "International baseline projections indicate supply, demand, and trade for major agricultural commodities for selected countries. These projections provide foreign country detail supporting the annual USDA agricultural baseline, which are longrun, 10-year projections.",
+      "title": "International Baseline Data",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://ers.usda.gov/data-products/international-baseline-data.aspx",
+          "mediaType": "application/vnd.ms-excel",
+          "title": "Web page links to Excel files"
+        }
+      ],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "bureauCode": [
+        "005:13"
+      ],
+      "modified": "2014-03-19",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service, Department of Agriculture"
+      },
+      "describedBy": "http://ers.usda.gov/data-products/international-baseline-data/documentation.aspx",
+      "accrualPeriodicity": "R/P1Y",
+      "spatial": "United States",
+      "issued": "2013-05-01"
+    },
+    {
+      "codeid": "USDA-ERS-00073",
+      "contactPoint": {
+        "hasEmail": "mailto:amuhammad@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Andrew Muhammad",
+				"icon": ""
+      },
+      "description": "Total and marginal budget shares and income and price elasticities are estimated, using 2005 ICP data, for nine broad consumption groups and eight food subgroups across 144 countries.",
+      "title": "International Food Consumption Patterns",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://www.ers.usda.gov/data-products/international-food-consumption-patterns.aspx",
+          "mediaType": "application/vnd.ms-excel",
+          "title": "Web page with links to Excel files"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "modified": "2014-03-19",
+      "issued": "2013-09-04",
+      "accessLevel": "public",
+      "programCode": [
+        "005:041"
+      ],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service, U.S. Department of Agriculture"
+      }
+    },
+    {
+      "codeid": "USDA-ERS-00074",
+      "contactPoint": {
+        "hasEmail": "mailto:bmeade@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Birgit Meade",
+				"icon": ""
+      },
+      "description": "This dataset is the basis for the International Food Security Assessment, 2016-2026 released in June 2016.  This annual ERS report projects food availability and access for 76 low- and middle-income countries over a 10-year period.  The dataset includes annual country-level data on area, yield, production, nonfood use, trade, and consumption for grains and root and tuber crops (combined as R&T in the documentation tables), food aid, total value of imports and exports, gross domestic product, and population compiled from a variety of sources.",
+      "language": [
+        "us-EN"
+      ],
+      "title": "International Food Security",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://www.ers.usda.gov/data-products/international-food-security.aspx",
+          "description": "Data for each of the 76 countries for 1990-2015 are presented in eight regional Excel workbooks.",
+          "mediaType": "application/vnd.ms-excel",
+          "title": "Excel file listing"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "modified": "2014-07-24",
+      "describedBy": "http://www.ers.usda.gov/data-products/international-food-security/documentation.aspx",
+      "theme": [
+        "international",
+        "food security"
+      ],
+      "spatial": "Global",
+      "issued": "2014-02-07",
+      "accessLevel": "public",
+      "programCode": [
+        "005:041"
+      ],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "United States Department of Agriculture"
+      },
+      "accrualPeriodicity": "R/P1Y"
+    },
+    {
+      "codeid": "USDA-ERS-29151",
+      "contactPoint": {
+        "hasEmail": "mailto:mshane@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Mathew Shane",
+				"icon": ""
+      },
+      "description": "The International Macroeconomic Data Set provides data from 1969 through 2030 for real (adjusted for inflation) gross domestic product (GDP), population, real exchange rates, and other variables for the 190 countries and 34 regions that are most important for U.S. agricultural trade. The data presented here are a key component of the USDA Baseline projections process, and can be used as a benchmark for analyzing the impacts of U.S. and global macroeconomic shocks.",
+      "title": "International Macroeconomic Data Set",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://ers.usda.gov/data-products/international-macroeconomic-data-set.aspx",
+          "mediaType": "application/vnd.ms-excel",
+          "title": "Web page with links to Excel files"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "modified": "2014-12-23",
+      "describedBy": "http://www.ers.usda.gov/data-products/international-macroeconomic-data-set/documentation.aspx",
+      "spatial": "World, United States",
+      "issued": "2013-12-19",
+      "accessLevel": "public",
+      "programCode": [
+        "005:041"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0",
+      "dataQuality": true,
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service, Department of Agriculture"
+      },
+      "accrualPeriodicity": "R/P1Y"
+    },
+    {
+      "codeid": "USDA-ERS-00004",
+      "accessLevel": "non-public",
+      "contactPoint": {
+        "hasEmail": "mailto:shaley@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Stephen Haley",
+				"icon": ""
+      },
+      "programCode": [
+        "005:041"
+      ],
+      "description": "Contains not only reporting and analysis but also the most complete range of ethanol production, consumption, trade, and price data. Coverage is worldwide but is especially complete for the United States, European Union, and Brazil.",
+      "title": "LMC International: Ethanol Market Report",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://www.lmc.co.uk/",
+          "mediaType": "text/html",
+          "title": "Vendor website"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "rights": "Purchased dataset with non-disclosure agreement",
+      "modified": "2014-02-28",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service:  Market and Trade Economics Division"
+      },
+      "spatial": "Global"
+    }
+	]
+}

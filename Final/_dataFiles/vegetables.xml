@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<foodGroup>
+	<veggieLink>https://www.choosemyplate.gov/content/vegetables</veggieLink>
+	
+	<Vegetable>
+		<food name="Broccoli">
+			<calsPer>31 calories per 1 cup chopped</calsPer>
+			<protein>2.6g</protein>
+			<carbs>6g</carbs>
+			<fat>0.3g</fat>
+		</food>
+		<food name="Potatos">
+			<calsPer>163 per 1 medium potato</calsPer>
+			<protein>4.3g</protein>
+			<carbs>37g</carbs>
+			<fat>0.2g</fat>
+		</food>
+		<food name="Butternut Squash">
+			<calsPer>63 per 1 cup cubed</calsPer>
+			<protein>1.4g</protein>
+			<carbs>16g</carbs>
+			<fat>0.1g</fat>
+		</food>
+		<food name="Carrots">
+			<calsPer>53 per 1 cup chopped</calsPer>
+			<protein>1.2g</protein>
+			<carbs>12g</carbs>
+			<fat>0.3g</fat>
+		</food>		
+
+	</Vegetable>
+</foodGroup>

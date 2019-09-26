@@ -1,0 +1,26 @@
+table, th, td {
+   border: 1px solid black;
+}
+
+th {color: rebeccapurple; font-weight: bold; font-size: 120%;}
+td {color: rebeccapurple;} 
+
+.title {font-size: 2em; font-weight: bold; color: black; font-weight: bold;}
+.title2 {font-size: 1.5em; font-weight: bold; color: rebeccapurple; font-weight: bold;}
+.footer {color: black;}
+
+.ui-icon-me:after {
+			background-image: url("images/me.jpg");
+			background-size: 25px 25px;
+}
+
+#xmlList {
+	margin: auto;
+	width: 20%;
+}
+
+
+#about {
+	margin: auto;
+	width: 50%;
+}
